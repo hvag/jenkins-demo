@@ -1,7 +1,7 @@
 job('NodeJS example') {
 
     scm {
-        git('https://github.com/hvag/jenkins-demo.git') {  node ->
+        git('https://github.com/hmashaw/docker-node-jenkins.git') {  node ->
             node / gitConfigName('HVAG Tester')
             node / gitConfigEmail('tester@hvadvisorygroup.com')
         }
